@@ -1,13 +1,38 @@
 {
   "name": "vue-shopify-buy",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "A Vue plugin that provides renderless components for the Shopify Buy SDK / Storefront API",
+  "keywords": [
+    "vue",
+    "plugin",
+    "shopify",
+    "buy",
+    "sdk",
+    "storefront",
+    "renderless",
+    "component"
+  ],
+  "author": {
+    "name": "Jonas Schwendener",
+    "email": "jonas.schwendener@gmail.com"
+  },
+  "repository": "https://github.com/jschwendener/vue-shopify-buy",
+  "bugs": "https://github.com/jschwendener/vue-shopify-buy/issues",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/VueShopifyBuy.umd",
+  "unpkg": "dist/VueShopifyBuy.umd.min.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --name VueShopifyBuy src/plugins/vue-shopify-buy/index.ts"
   },
   "dependencies": {
+    "@types/shopify-buy": "^1.4.3",
     "core-js": "^3.3.2",
+    "shopify-buy": "^2.8.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

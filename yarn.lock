@@ -708,6 +708,10 @@
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
 
+"@types/shopify-buy@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@types/shopify-buy/-/shopify-buy-1.4.3.tgz#7863490c6157f38f5b69dde2cdf6b65da1cbcacd"
+
 "@types/webpack-env@^1.13.9":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.14.1.tgz#0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7"
@@ -5744,6 +5748,10 @@ shebang-regex@^3.0.0:
 shell-quote@^1.6.1:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
+
+shopify-buy@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/shopify-buy/-/shopify-buy-2.8.0.tgz#3a170d9d53d5cc2553bb6b04dd423071b1750236"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
