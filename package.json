@@ -1,6 +1,6 @@
 {
   "name": "vue-shopify-buy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue plugin that provides renderless components for the Shopify Buy SDK / Storefront API",
   "keywords": [
     "vue",
